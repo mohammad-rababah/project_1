@@ -8,6 +8,8 @@ print(df.describe())
 #df["Selling_Price"].plot()  # matplot
 df["Year"].hist()
 df.plot.scatter(x="Year", y="Selling_Price")
+
+
 plt.show()
 
 # dic = {
